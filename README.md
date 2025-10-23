@@ -16,3 +16,10 @@ realización de un programa, por lo que a ello me dediqué.
     - Variedad de shortcuts para la comodidad del cajero.
     - Creación del Excel en un formato presentable, todo en una misma interfaz de usuario.
     - Recordatorio de tareas comunicativas con administración y checklist de cierre de caja.
+    - Un pequeño bloc de notas que sirva de recordatorio para las distintas circuentancias que se puede ver
+    adversado el cajero, tales como promociones del día, comunicaciones, entre otros.
+
+## Organización del proyecto.
+Para la comodidad y orden, decidí (en cada módulo) implementar un orden de "jerarquía" en cuanto el llamado de
+bibliotecas o importado de funciones y clases, el cual se basa en primero llamar a los distintos archivos y
+luego a los frameworks o librerías, todo en orden alfabético.
