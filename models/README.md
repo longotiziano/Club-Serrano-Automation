@@ -10,3 +10,4 @@ están divididas en base a las diversas hojas del Excel que está impuesto en el
     - _invitaciones.py_
     - _gastos.py_
     - _socios_.py_
+    

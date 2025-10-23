@@ -1,4 +1,4 @@
-from app.models.resumen import Resumen
+from models.resumen import Resumen
 from typing import Literal
 
 class Pago(Resumen):
