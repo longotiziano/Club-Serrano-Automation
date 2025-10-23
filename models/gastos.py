@@ -1,4 +1,4 @@
-from models.resumen import Resumen
+from models.resumen_arqueo import Resumen
 from datetime import date
 
 class Gasto(Resumen):

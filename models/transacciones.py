@@ -1,7 +1,7 @@
-from models.resumen import Resumen
+from models.resumen_arqueo import Resumen
 from typing import Literal
 
-class Pago(Resumen):
+class Transaccion(Resumen):
     """
     Clase en la cual se concentran los atributos y métodos de las tarjetas generales.
     """
@@ -28,7 +28,7 @@ class Pago(Resumen):
             return False if self.num_op != 12 else True
         return 
     
-class Tarjeta(Pago):
+class Tarjeta(Transaccion):
     """
     Especificación para las tarjetas.
     """
@@ -43,7 +43,7 @@ class Tarjeta(Pago):
         """
         return False if self.ultimos_digitos != 4 else True
             
-class Qr(Pago):
+class Qr(Transaccion):
     """
     Especificación para los QRs.
     """
